@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Device Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <!--header tag, logo & menu-->
+    <header>
+        <nav>
+            <img src="images/elements/logo.svg" alt="logo" class="logo">
+
+            <ul>
+                <li>
+                    <a href="#about" class="nav">about</a>
+                </li>
+
+                <li>
+                    <a href="#showcase" class="nav">showcase</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--a main container to hold all the elements for the landing page-->
+    <main>
+        <!--the elements for the parallax effect-->
+        <img src="images/elements/fog.png" alt="fog" data-speedx="0.3" data-speedy="0.3" class="parallax fog">
+        <img src="images/elements/hanging_stars.png" alt="hanging_stars" data-speedx="0.165" data-speedy="0.38"
+            class="parallax hanging_stars">
+        <img src="images/portrait.png" alt="portrait" data-speedx="0.125" data-speedy="0.32" class="parallax portrait">
+        <img src="images/elements/spiral1.png" alt="spiral1" data-speedx="0.065" data-speedy="0.28"
+            class="parallax spiral1">
+        <img src="images/elements/spiral2.png" alt="spiral2" data-speedx="0.08" data-speedy="0.11"
+            class="parallax spiral2">
+        <div class="text parallax" data-speedx="0.059" data-speedy="0.04">
+            <h1>alamort</h1>
+        </div>
+        <div class="subtext parallax" data-speedx="0.15" data-speedy="0.0235">
+            <h2>online gallery</h2>
+        </div>
+        <img src="images/elements/particles.png" alt="particles" data-speedx="0.027" data-speedy="0.01"
+            class="parallax particles">
+
+        <a href="#gallery">
+            <button class="view">view work</button>
+        </a>
+
+        <div class="media">
+            <a href="https://www.instagram.com/alamort.sendhelp/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </main>
+
+    <!--a container to hold all the elements for the about section-->
+    <div class="about-container" id="about">
+        <div class="about">
+            <div class="about-text reveal">
+                <span>✧ - About the exhibition - ✧</span>
+                <h2>alamort</h2>
+                <p>The exhibition includes works that encompass depictions of femininity, gentleness, and elegance. </p>
+            </div>
+
+            <div class="about-img reveal">
+                <img src="images/greeting.png" alt="greeting">
+            </div>
+        </div>
+    </div>
+
+    <!--a container to hold all the elements for the showcase section-->
+    <div class="showcase-container">
+
+        <!--3d card-->
+        <div class="card card-1"> 
+            <div class="mooncard wrapper"> 
+                <img src="images/elements/moon-card.png" alt="moon-lineart" class="card-image">  
+            </div>
+            <p>Digital pieces</p>
+            
+            <img src="images/moon-transperent.png" alt="moon-transperentbg" class="img-transt">
+        </div>
+
+        <div class="card card-2">
+            <div class="ErosPsychecard wrapper">
+                <img src="images/elements/ErosPsyche-card.png" alt="ErosPsyche-lineart" class="card-image">
+            </div>
+            <p>Traditional pieces</p>
+
+            <img src="images/ErosPsyche-transperent.png" alt="ErosPsyche-transperentbg" class="img-transt">
+        </div>
+
+    </div>
+
+    <!--a container to hold all the elements for the gallery section-->
+    <div class="gallery-container" id="gallery">
+
+        <!--gallery title-->
+        <div class="gallery-title reveal">
+            <h3>the collection</h3>
+            <img src="images/elements/border.svg" alt="">
+        </div>
+        
+        <!--gallery images-->
+        <div class="gallery">
+            <div class="picture secrets reveal">
+                <img src="images/secrets.png" alt="Secrets are uttered, 2023" class="imgs">
+                <p>Sandy Sarte, Secrets are uttered, 2023</p>
+                <a href="images/secrets.png" download="secrets">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+
+            <div class="picture moon reveal">
+                <img src="images/moon.png" alt="The Lady of the Moon, 2023" class="imgs">
+                <p class="title">Sandy Sarte, The Lady of the Moon, 2023</p>
+                <a href="images/moon.png" download="moon">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+
+            <div class="picture fallen reveal">
+                <img src="images/fallen.png" alt="Fallen fair lady, 2022" class="imgs">
+                <p class="title">Sandy Sarte, Fallen fair lady, 2022</p>
+                <a href="images/fallen.png" download="fallen">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+
+            <div class="picture tranquillity reveal">
+                <img src="images/tranquillity.png" alt="Seated in tranquillity, 2023" class="imgs">
+                <p class="title">Sandy Sarte, Seated in tranquillity. 2023</p>
+                <a href="images/tranquillity.png" download="tranquillity">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+
+            <div class="picture peaking reveal">
+                <img src="images/peaking.png" alt="Take a peak, 2023" class="imgs">
+                <p class="title">Sandy Sarte, Take a peak, 2023</p>
+                <a href="images/peaking.png" download="peaking">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+
+            <div class="picture stella reveal">
+                <img src="images/stella.png" alt="Stella Statue, 2023" class="imgs">
+                <p class="title">Sandy Sarte, Stella Statue, 2023</p>
+                <a href="images/stella.png" download="stella">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+
+            <div class="picture beach reveal">
+                <img src="images/beach.jpg" alt="A Sketch by the Beach, 2022" class="imgs">
+                <p class="title">Sandy Sarte, A Sketch by the Beach, 2022</p>
+                <a href="images/beach.jpg" download="beach">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+            <div class="picture woman reveal">
+                <img src="images/portraitwoman.jpg" alt="Portrait of a woman, 2023" class="imgs">
+                <p class="title">Sandy Sarte, Portrait of a woman, 2023</p>
+                <a href="images/portraitwoman.jpg" download="portraitwoman">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+
+            <div class="picture ErosPsyche reveal">
+                <img src="images/ErosPsyche.jpg" alt="Eros and Psyche, 2021" class="imgs">
+                <p class="title">Sandy Sarte, Eros and Psyche, 2021</p>
+                <a href="images/ErosPsyche.jpg" download="ErosPsyche">
+                    <button class="dl">download</button> <!--download the image-->
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--the footer-->
+    <footer>
+        <div class="license">
+            <p>✧ COPYRIGHT & ARTWORK CREDIT ✧</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
